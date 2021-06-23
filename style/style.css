@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+body {
+    background-color: #ebeaef;
+}
+
+/* div#wrap */
+div#wrap {
+    width: 1360px;
+    margin: 10px auto;
+}
+/* div#wrap */
+
+
+/* main#main */
+main#main {
+    background-color: #fff;
+}
+
+    /* header#header */
+#main>header#header {
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+}
+
+    /* header#header */
+
+
+    /* nav#gnb */
+
+/*
+#main>nav#gnb {
+    border: 1px solid #f80;
+}
+*/
+
+#gnb li.mainLi {
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#gnb li.mainLi {
+    border: 1px solid #aaa;
+}
+#gnb li.mainLi:not(:last-child) {
+    border-right: none;
+}
+
+#gnb a {
+    width: 100%;
+    height: 46px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 46px;
+    /*border: 1px solid #000;*/
+    display: inline-block;
+}
+
+#gnb a.selected {
+    color: #fff;
+    background-color: #16a840;
+}
+    /* nav#gnb */
+
+
+    /* div#slide */
+#main div#slide {
+    padding: 10px 0 34px;
+    border: 1px solid #f80;
+    margin-top: 16px;
+}
+
+#main div#shuttleFrame {
+
+    border: 1px solid #08f;
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#main div.arrowArea {
+    padding: 10px;
+    border: 1px solid #08f;
+    margin: 0 10px;
+}
+
+    /* div#slide */
+
+
+
+/* main#main */
+
+
+
+/* div#contents */
+div#bbs, div#signBoard {
+    background-color: #fff;
+}
+
+/* div#contents */
+
+
+
+
+
+
+
+
