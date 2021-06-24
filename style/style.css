@@ -15,6 +15,7 @@ div#wrap {
 
 /* main#main */
 main#main {
+    margin-bottom: 24px;
     background-color: #fff;
 }
 
@@ -77,23 +78,67 @@ main#main {
     margin-top: 16px;
 }
 
+
+#main div.arrowArea {
+    line-height: 265px;
+    padding: 10px;
+/*    border: 1px solid #08f;*/
+    margin: 0 10px;
+}
+
+
 #main div#shuttleFrame {
 
-    border: 1px solid #08f;
+/*    border: 1px solid #08f;*/
 
     -webkit-flex: 1px;
     -moz-flex: 1px;
     -ms-flex: 1px;
     -o-flex: 1px;
     flex: 1px;
+
+
+    justify-content: space-between;
 }
 
-#main div.arrowArea {
-    padding: 10px;
-    border: 1px solid #08f;
-    margin: 0 10px;
+
+#main #shuttleFrame div.slideItem {
+    border: 1px solid #aaa;
 }
 
+#main #shuttleFrame div.forestInfo {
+    padding: 16px;
+}
+
+#main .forestInfo h3 {
+    color: #22834d;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#main .forestInfo address {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+#main .forestInfo hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin-bottom: 6px;
+}
+
+#main .forestInfo ul {
+    /*border: 1px solid #000;*/
+
+    /*list-style-type: disc;*/
+    list-style-position: inside;
+}
+#main .forestInfo li {
+    font-size: 13px;
+    font-weight: bold;
+   /* border: 1px solid #f80;*/
+}
     /* div#slide */
 
 
@@ -103,9 +148,64 @@ main#main {
 
 
 /* div#contents */
+div#contents {
+    border: 1px solid #000;
+}
+
+
 div#bbs, div#signBoard {
     background-color: #fff;
 }
+
+#contents #bbs {
+    border: 1px solid #08f;
+    margin-right: 20px;
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+
+#contents #signBoard {
+    width: 450px;
+    padding: 34px;
+    /*border: 1px solid #08f;*/
+}
+#contents #signBoard #signBoardHeader {
+    /*border: 1px solid #000;*/
+    margin-bottom: 20px;
+}
+#contents #signBoard h2 {
+    color: #000;
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+#contents #signBoard div#controlArea {
+    width: 100px;
+    /*border: 1px solid #000;*/
+}
+#contents #controlArea span {
+    text-align: center;
+    /*border: 1px solid #f80;*/
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+/*
+#contents div#boardImgArea {
+    border: 1px solid #000;
+}
+*/
 
 /* div#contents */
 

@@ -8,3 +8,10 @@
 
 GNB 에밋코드 =>
 ul#mainMenu.flex-container>li.mainLi*8>a[href=#]{메인메뉴$}
+
+
+------------------------------------------------
+
+[Github 업로드정보]
+저장소명 : 0623_MainPage_Forest
+
